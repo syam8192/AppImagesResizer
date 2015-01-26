@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63E00E91A1DEAA30038624D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E00E81A1DEAA30038624D /* AppDelegate.m */; };
+		C63E00EB1A1DEAA30038624D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E00EA1A1DEAA30038624D /* main.m */; };
+		C63E00ED1A1DEAA30038624D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63E00EC1A1DEAA30038624D /* Images.xcassets */; };
+		C63E01061A1DEB580038624D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63E01051A1DEB580038624D /* MainMenu.xib */; };
+		C63E010E1A1DEB5F0038624D /* DropView.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E01091A1DEB5F0038624D /* DropView.m */; };
+		C63E010F1A1DEB5F0038624D /* NSDictionary+Getter.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E010B1A1DEB5F0038624D /* NSDictionary+Getter.m */; };
+		C63E01101A1DEB5F0038624D /* NSImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E010D1A1DEB5F0038624D /* NSImage+Resize.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C63E00E21A1DEAA30038624D /* AppImazesResizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppImazesResizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63E00E61A1DEAA30038624D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63E00E71A1DEAA30038624D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C63E00E81A1DEAA30038624D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C63E00EA1A1DEAA30038624D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C63E00EC1A1DEAA30038624D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C63E01051A1DEB580038624D /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		C63E01081A1DEB5F0038624D /* DropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropView.h; sourceTree = "<group>"; };
+		C63E01091A1DEB5F0038624D /* DropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropView.m; sourceTree = "<group>"; };
+		C63E010A1A1DEB5F0038624D /* NSDictionary+Getter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Getter.h"; sourceTree = "<group>"; };
+		C63E010B1A1DEB5F0038624D /* NSDictionary+Getter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Getter.m"; sourceTree = "<group>"; };
+		C63E010C1A1DEB5F0038624D /* NSImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Resize.h"; sourceTree = "<group>"; };
+		C63E010D1A1DEB5F0038624D /* NSImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Resize.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63E00DF1A1DEAA30038624D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C63E00D91A1DEAA30038624D = {
+			isa = PBXGroup;
+			children = (
+				C63E00E41A1DEAA30038624D /* AppImazesResizer */,
+				C63E00E31A1DEAA30038624D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C63E00E31A1DEAA30038624D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63E00E21A1DEAA30038624D /* AppImazesResizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63E00E41A1DEAA30038624D /* AppImazesResizer */ = {
+			isa = PBXGroup;
+			children = (
+				C63E00E71A1DEAA30038624D /* AppDelegate.h */,
+				C63E00E81A1DEAA30038624D /* AppDelegate.m */,
+				C63E01051A1DEB580038624D /* MainMenu.xib */,
+				C63E00EC1A1DEAA30038624D /* Images.xcassets */,
+				C63E01071A1DEB5F0038624D /* Classes */,
+				C63E00E51A1DEAA30038624D /* Supporting Files */,
+			);
+			path = AppImazesResizer;
+			sourceTree = "<group>";
+		};
+		C63E00E51A1DEAA30038624D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C63E00E61A1DEAA30038624D /* Info.plist */,
+				C63E00EA1A1DEAA30038624D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C63E01071A1DEB5F0038624D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C63E01081A1DEB5F0038624D /* DropView.h */,
+				C63E01091A1DEB5F0038624D /* DropView.m */,
+				C63E010A1A1DEB5F0038624D /* NSDictionary+Getter.h */,
+				C63E010B1A1DEB5F0038624D /* NSDictionary+Getter.m */,
+				C63E010C1A1DEB5F0038624D /* NSImage+Resize.h */,
+				C63E010D1A1DEB5F0038624D /* NSImage+Resize.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63E00E11A1DEAA30038624D /* AppImazesResizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63E00FF1A1DEAA30038624D /* Build configuration list for PBXNativeTarget "AppImazesResizer" */;
+			buildPhases = (
+				C63E00DE1A1DEAA30038624D /* Sources */,
+				C63E00DF1A1DEAA30038624D /* Frameworks */,
+				C63E00E01A1DEAA30038624D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppImazesResizer;
+			productName = AppImazesResizer;
+			productReference = C63E00E21A1DEAA30038624D /* AppImazesResizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C63E00DA1A1DEAA30038624D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = B02923;
+				TargetAttributes = {
+					C63E00E11A1DEAA30038624D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C63E00DD1A1DEAA30038624D /* Build configuration list for PBXProject "AppImazesResizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C63E00D91A1DEAA30038624D;
+			productRefGroup = C63E00E31A1DEAA30038624D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63E00E11A1DEAA30038624D /* AppImazesResizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63E00E01A1DEAA30038624D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63E00ED1A1DEAA30038624D /* Images.xcassets in Resources */,
+				C63E01061A1DEB580038624D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63E00DE1A1DEAA30038624D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63E00EB1A1DEAA30038624D /* main.m in Sources */,
+				C63E010F1A1DEB5F0038624D /* NSDictionary+Getter.m in Sources */,
+				C63E010E1A1DEB5F0038624D /* DropView.m in Sources */,
+				C63E00E91A1DEAA30038624D /* AppDelegate.m in Sources */,
+				C63E01101A1DEB5F0038624D /* NSImage+Resize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C63E00FD1A1DEAA30038624D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C63E00FE1A1DEAA30038624D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C63E01001A1DEAA30038624D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AppImazesResizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C63E01011A1DEAA30038624D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AppImazesResizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C63E00DD1A1DEAA30038624D /* Build configuration list for PBXProject "AppImazesResizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63E00FD1A1DEAA30038624D /* Debug */,
+				C63E00FE1A1DEAA30038624D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63E00FF1A1DEAA30038624D /* Build configuration list for PBXNativeTarget "AppImazesResizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63E01001A1DEAA30038624D /* Debug */,
+				C63E01011A1DEAA30038624D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C63E00DA1A1DEAA30038624D /* Project object */;
+}
